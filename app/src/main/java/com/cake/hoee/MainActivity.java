@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         // webview init
         WebView myWebView = (WebView) findViewById(R.id.webView);
-        myWebView.loadUrl("http://www.google.com");
+        myWebView.loadUrl("http://10.0.2.2:8080/BusProject/main.html");
 
         // firebase subscribe topic
         FirebaseMessaging.getInstance().subscribeToTopic("foo-bar");
